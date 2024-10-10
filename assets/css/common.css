@@ -116,14 +116,13 @@ main h1 span:last-child {
 	color: var(--quinary-color);
 }
 
-
 /* Footer */
 
 footer {
-  background: var(--primary-color);
-  color: var(--text-color);
-  text-align: center;
-  padding: 20px 0;
+	background: var(--primary-color);
+	color: var(--text-color);
+	text-align: center;
+	padding: 20px 0;
 }
 
 /* Responsive Design */
@@ -184,10 +183,14 @@ footer {
 	}
 
 	aside img {
-		width: 100px;
+		width: 50px;
 	}
 
 	aside a {
 		padding: 5px 10px;
+	}
+
+	aside ul {
+		margin: 5%;
 	}
 }
