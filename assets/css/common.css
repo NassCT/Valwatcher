@@ -1,0 +1,193 @@
+/* Imports */
+
+:root {
+	--primary-color: #000000;
+	--secondary-color: #121212;
+	--third-color: #1f1f1f;
+	--text-color: whitesmoke;
+	--quaternary-color: #ff4455;
+	--quinary-color: #7146ff;
+}
+
+@font-face {
+	font-family: "Main";
+	src: url("/assets/fonts/MarkPro.otf");
+}
+
+@font-face {
+	font-family: "Second";
+	src: url("/assets/fonts/Tungsten.ttf");
+}
+
+@font-face {
+	font-family: "Third";
+	src: url(/assets/fonts/dinnextw1g.otf);
+}
+
+/* General */
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 18px;
+}
+
+body {
+	background: var(--secondary-color);
+	color: var(--text-color);
+}
+
+a {
+	color: var(--text-color);
+}
+
+h1,
+h1 span {
+	font-family: "Main";
+	font-size: 4.5rem;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-family: "Second";
+	font-size: 2rem;
+}
+
+h3 {
+	font-family: "Second";
+	font-size: 1.7rem;
+}
+
+p,
+li,
+a {
+	font-family: "Third";
+	font-size: 1rem;
+}
+
+/* Aside */
+
+aside {
+	background: var(--primary-color);
+	height: 100%;
+	width: 17%;
+	position: fixed;
+	padding-top: 20px;
+	z-index: 1;
+	overflow: hidden;
+	border-radius: 0 25px 0px 0px;
+}
+
+aside img {
+	display: flex;
+	margin: 0 auto;
+	width: 150px;
+}
+
+aside a {
+	display: block;
+	padding: 10px 20px;
+	color: var(--text-color);
+}
+
+aside ul {
+	margin-left: 25%;
+}
+
+/* Main */
+
+main {
+	width: 83%;
+	height: 100%;
+	background: var(--secondary-color);
+	margin-left: 17%;
+}
+
+main h1 span {
+	color: var(--quaternary-color);
+}
+
+main h1 span:last-child {
+	color: var(--quinary-color);
+}
+
+
+/* Footer */
+
+footer {
+  background: var(--primary-color);
+  color: var(--text-color);
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+	h1,
+	h1 span {
+		font-size: 3.5rem;
+		height: auto;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.2rem;
+	}
+
+	p,
+	li,
+	a {
+		font-size: 0.9rem;
+	}
+
+	aside {
+		width: 100%;
+		height: auto;
+		position: relative;
+		border-radius: 0;
+	}
+
+	main {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 480px) {
+	h1,
+	h1 span {
+		font-size: 2rem;
+		height: auto;
+	}
+
+	h2 {
+		font-size: 1.2rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	p,
+	li,
+	a {
+		font-size: 0.8rem;
+	}
+
+	aside img {
+		width: 100px;
+	}
+
+	aside a {
+		padding: 5px 10px;
+	}
+}

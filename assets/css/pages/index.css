@@ -1,0 +1,108 @@
+/* Main Header */
+
+.header {
+	background: url("/assets/img/background.png") no-repeat center center;
+	background-position-y: top;
+	border-radius: 15px;
+	height: 50vh;
+	justify-content: space-evenly;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header button {
+	background-color: #000000;
+	color: var(--text-color);
+	font-family: "Third";
+	border: none;
+	padding: 10px 20px;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.header button:hover {
+	color: var(--quaternary-color);
+	transform: scale(1.01);
+}
+
+.slogan {
+	font-size: 5em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Team */
+
+.team-header {
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.team-header h2 {
+	font-size: 0.9em;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px;
+}
+
+.team {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--third-color);
+	width: 60%;
+	height: 15vh;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 5px auto;
+	padding: 10px;
+}
+
+.team img {
+	height: 60px;
+	margin: 0 10px;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ads */
+
+.ads {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--third-color);
+	width: 60%;
+	height: 15vh;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 5px auto;
+	padding: 10px;
+}
+
+.ads img {
+	height: 60px;
+	margin: 0 10px;
+	border-radius: 50%;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* upcoming-matches */
+
+.upcoming-matches {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--third-color);
+	width: 60%;
+	height: 15vh;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 5px auto;
+	padding: 10px;
+}
